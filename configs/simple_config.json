@@ -1,0 +1,21 @@
+{
+        "exp_name": "new_exp",
+        "batch_size": 200,
+        "epochs": 600,
+        "no_cuda": false,
+        "seed": 1,
+        "lr": 0.0005,
+        "nf": 64,
+        "model": "gmn",
+        "attention": 0,
+        "n_layers": 4,
+        "max_training_samples": 500,
+        "data_dir": "spatial_graph/n_body_system/dataset/data",
+        "norm_diff": false,
+        "weight_decay": 1e-10,
+        "tanh": false,
+        "learnable": false,
+        "n_isolated": 3,
+        "n_stick": 2,
+        "n_hinge": 1
+}
