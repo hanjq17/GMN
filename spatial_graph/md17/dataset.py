@@ -155,6 +155,9 @@ class MD17Dataset():
         self.cfg = self.sample_cfg()
 
     def sample_cfg(self):
+        """
+        Kinematics Decomposition
+        """
         cfg = {}
         if self.molecule_type == 'benzene_old':
             cfg['Stick'] = [(0, 1), (2, 3), (4, 5)]

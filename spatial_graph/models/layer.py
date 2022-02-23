@@ -24,10 +24,24 @@ def unsorted_segment_mean(data, segment_ids, num_segments):
 
 # add our model here
 class GMNLayer(nn.Module):
-
     def __init__(self, input_nf, output_nf, hidden_nf, edges_in_d=0, nodes_att_dim=0, act_fn=nn.ReLU(),
-                 recurrent=True, coords_weight=1.0, attention=False, clamp=False, norm_diff=False, tanh=False,
+                 recurrent=True, coords_weight=1.0, attention=False, norm_diff=False, tanh=False,
                  learnable=False):
+        """
+        The layer of Graph Mechanics Networks.
+        :param input_nf: input node feature dimension
+        :param output_nf: output node feature dimension
+        :param hidden_nf: hidden dimension
+        :param edges_in_d: input edge dimension
+        :param nodes_att_dim: attentional dimension, inherited
+        :param act_fn: activation function
+        :param recurrent: residual connection on x
+        :param coords_weight: coords weight, inherited
+        :param attention: use attention on edges, inherited
+        :param norm_diff: normalize the distance, inherited
+        :param tanh: Tanh activation, inherited
+        :param learnable: use learnable FK
+        """
         super(GMNLayer, self).__init__()
         input_edge = input_nf * 2
         self.coords_weight = coords_weight
@@ -95,7 +109,6 @@ class GMNLayer(nn.Module):
         layer = nn.Linear(hidden_nf, 1, bias=False)
         torch.nn.init.xavier_uniform_(layer.weight, gain=0.001)
 
-        self.clamp = clamp
         coord_mlp = []
         coord_mlp.append(nn.Linear(hidden_nf, hidden_nf))
         coord_mlp.append(act_fn)

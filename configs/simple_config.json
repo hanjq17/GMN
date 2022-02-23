@@ -1,5 +1,5 @@
 {
-        "exp_name": "new_exp",
+        "exp_name": "simulation_exp",
         "batch_size": 200,
         "epochs": 600,
         "no_cuda": false,

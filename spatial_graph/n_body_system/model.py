@@ -80,6 +80,20 @@ class EGNN_vel(nn.Module):
 class GMN(nn.Module):
     def __init__(self, in_node_nf, in_edge_nf, hidden_nf, device='cpu', act_fn=nn.SiLU(), n_layers=4, coords_weight=1.0,
                  recurrent=False, norm_diff=False, tanh=False, learnable=False):
+        """
+        Graph Mechanics Networks.
+        :param in_node_nf: input node feature dimension
+        :param in_edge_nf: input edge feature dimension
+        :param hidden_nf: hidden dimension
+        :param device: device
+        :param act_fn: activation function
+        :param n_layers: the number of layers
+        :param coords_weight: coords weight, inherited from EGNN
+        :param recurrent: residual connection on x
+        :param norm_diff: normalize the distance, inherited
+        :param tanh: Tanh activation, inherited
+        :param learnable: use learnable FK
+        """
         super(GMN, self).__init__()
         self.hidden_nf = hidden_nf
         self.device = device

@@ -131,6 +131,9 @@ class MotionDataset():
         self.cfg = self.sample_cfg()
 
     def sample_cfg(self):
+        """
+        Kinematics Decomposition
+        """
         cfg = {}
 
         cfg['Stick'] = [(0, 11), (12, 13)]

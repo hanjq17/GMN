@@ -23,7 +23,7 @@ A more detailed Python environment is depicted in `requirements.yml`.
 
 
 
-## Data preparation
+## Data Preparation
 
 **1. Simulation Dataset**
 
@@ -51,7 +51,7 @@ The raw data were obtained via [CMU Motion Capture Database](http://mocap.cs.cmu
 
 
 
-## Model training and evaluation
+## Training and Evaluation
 
 **1. Simulation Dataset**
 
@@ -80,6 +80,8 @@ python -u spatial_graph/main_motion.py --config_by_file
 
 
 ## Visualizations
+
+We provide a toy script for visualization in `visualize.ipynb`.
 
 We exhibit some visualizations of the predictions as below (*Left*: initial position, *Middle*: GMN, *Right*: EGNN):
 
@@ -114,5 +116,5 @@ url={https://openreview.net/forum?id=SHbhHHfePhP}
 
 If you have any questions, feel free to reach us at:
 
-hanjq21@mails.tsinghua.edu.cn
+Jiaqi Han: hanjq21@mails.tsinghua.edu.cn
 

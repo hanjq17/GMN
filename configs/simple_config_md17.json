@@ -1,5 +1,5 @@
 {
-        "exp_name": "new_exp",
+        "exp_name": "md17_exp",
         "batch_size": 100,
         "epochs": 500,
         "no_cuda": false,
