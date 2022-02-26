@@ -81,7 +81,7 @@ python -u spatial_graph/main_motion.py --config_by_file
 
 ## Visualizations
 
-We provide a toy script for visualization in `visualize.ipynb`.
+We provide a toy script for visualization in `visualization/vis.ipynb`.
 
 We exhibit some visualizations of the predictions as below (*Left*: initial position, *Middle*: GMN, *Right*: EGNN):
 
@@ -93,7 +93,9 @@ We exhibit some visualizations of the predictions as below (*Left*: initial posi
 
 ![Mocap](assets/mocap.png "Mocap")
 
+Here we also provide some dynamic cases tested with a batch of **continuous** input frames (*Blue*: prediction, *Red*: ground truth). The toy script is deferred to `visualization/vis_cont.ipynb`.
 
+![Demo](assets/demo.gif "Demo")
 
 ## Citation
 
