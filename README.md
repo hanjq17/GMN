@@ -8,7 +8,9 @@ Wenbing Huang\*, Jiaqi Han\*, Yu Rong, Tingyang Xu, Fuchun Sun, Junzhou Huang
 
 Graph Mechanics Networks (GMNs) are novel graph neural networks particularly powerful for modeling the dynamics of constrained systems. GMNs are equivariant to translations, rotations, and reflections. The flowchart of our model is provided in the figure below. Please refer to our paper for more details.
 
-![Overview](assets/overview.png "Overview").
+![Overview](assets/overview.png "Overview")
+
+
 
 ## Dependencies
 
@@ -103,8 +105,8 @@ If you find our work hepful, please cite as:
 
 ```
 @inproceedings{
-huang2022constrained,
-title={Constrained Graph Mechanics Networks},
+huang2022equivariant,
+title={Equivariant Graph Mechanics Networks with Constraints},
 author={Wenbing Huang and Jiaqi Han and Yu Rong and Tingyang Xu and Fuchun Sun and Junzhou Huang},
 booktitle={International Conference on Learning Representations},
 year={2022},
