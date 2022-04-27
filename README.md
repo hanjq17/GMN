@@ -4,7 +4,7 @@ Wenbing Huang\*, Jiaqi Han\*, Yu Rong, Tingyang Xu, Fuchun Sun, Junzhou Huang
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/hanjq17/GMN/blob/main/LICENSE)
 
-[**[OpenReview]**](https://openreview.net/forum?id=SHbhHHfePhP) [**[Paper]**](https://openreview.net/pdf?id=SHbhHHfePhP)
+[**[OpenReview]**](https://openreview.net/forum?id=SHbhHHfePhP) [**[Paper]**](https://openreview.net/pdf?id=SHbhHHfePhP) [**[Poster]**](assets/poster.pdf)
 
 Graph Mechanics Networks (GMNs) are novel graph neural networks particularly powerful for modeling the dynamics of constrained systems. GMNs are equivariant to translations, rotations, and reflections. The flowchart of our model is provided in the figure below. Please refer to our paper for more details.
 
@@ -101,7 +101,7 @@ Here we also provide some dynamic cases tested with a batch of **continuous** in
 
 ## Citation
 
-If you find our work hepful, please cite as:
+If you find our work helpful, please cite as:
 
 ```
 @inproceedings{
