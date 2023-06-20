@@ -114,7 +114,9 @@ url={https://openreview.net/forum?id=SHbhHHfePhP}
 }
 ```
 
+## New Update
 
+We update the code of our GMN-OC, an enhanced version of GMN for molecular data, to `assets/gmnoc` folder. GMN-OC contributes to our winning the first place of [The Open Catalyst Challenge 2022](https://opencatalystproject.org/challenge.html).
 
 ## Contact
 
