@@ -118,6 +118,8 @@ url={https://openreview.net/forum?id=SHbhHHfePhP}
 
 We update the code of our GMN-OC, an enhanced version of GMN for molecular data, to `assets/gmnoc` folder. GMN-OC contributes to our winning the first place of [The Open Catalyst Challenge 2022](https://opencatalystproject.org/challenge.html).
 
+Typo: Delta frame should be 3000 instead of 5000 in the paper (on Page 16). The configuration described in the code (`https://github.com/hanjq17/GMN/blob/main/configs/simple_config_md17.json`) is correct.
+
 ## Contact
 
 If you have any questions, feel free to reach us at:
