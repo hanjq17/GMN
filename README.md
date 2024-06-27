@@ -124,5 +124,5 @@ Typo: Delta frame should be 3000 instead of 5000 in the paper (on Page 16). The 
 
 If you have any questions, feel free to reach us at:
 
-Jiaqi Han: hanjq21@mails.tsinghua.edu.cn
+Jiaqi Han: jiaqihan@stanford.edu
 
